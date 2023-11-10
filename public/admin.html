@@ -35,15 +35,53 @@
             </div> 
         </div>
     </div>
+    <div class="caixa bg-dark h-50 shadow escondido">
+        <table id='tabela' class='table table-bordered table-light'>
+            <thead>
+                <tr>
+                    <td scope="col">
+                        ID
+                    </td>
+                    <td scope="col">
+                        Nome Completo
+                    </td>
+                    <td scope='col'>
+                        Cargo
+                    </td>
+                    <td scope='col'>
+                        Salario 
+                    </td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        Teste
+                    </td>
+                    <td>
+                        Teste
+                    </td>
+                    <td>
+                        Teste
+                    </td>
+                    <td>
+                        Teste
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <button class="btn btn-primary">OK</button>
+    </div>
     <div class="container d-grid gap-3">
         <h1 class="text-center">Admin table</h1>
         <div class="tabela_background">
             <table id='tabela' class="table table-bordered table-dark">
                 <thead>
-                    <tr>
+                    <tr class='bg-primary'>
                         <th scope="col">Cargo</th>
                         <th scope="col">Nome</th>
                         <th scope="col">Editar</th>
+                        <th scope="col">ler</th>
                     </tr>
                 </thead>
                 <tbody id='list' class="table-group-divider">
@@ -57,14 +95,28 @@
                                 </span>
                             </div>
                         </td>
+                        <td class="btn-read">
+                            <div>
+                                <span class="material-symbols-outlined">
+                                    person_book
+                                </span>
+                            </div>
+                        </td>
                     </tr>
                     <tr>
-                        <td>cargo</td>
-                        <td>nome</td>
+                        <td>cargo12</td>
+                        <td>nome12</td>
                         <td class="btn-edit">
                             <div>
                                 <span class="material-symbols-outlined">
                                     edit
+                                </span>
+                            </div>
+                        </td>
+                        <td class="btn-read">
+                            <div>
+                                <span class="material-symbols-outlined">
+                                    person_book
                                 </span>
                             </div>
                         </td>
