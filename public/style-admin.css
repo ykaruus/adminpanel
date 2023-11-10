@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+.btn_edit {
+    cursor: pointer;
+}
+
+.caixa {
+    width: 600px;
+    height: 200px;
+    position: fixed;
+    z-index: 2;
+    background-color: white;
+    padding: 10px;
+
+}
+
+form {
+    width: 100%;
+}
+
+.escondido {
+    display: none;
+}
+
+.tabela_background { 
+    width: 100%;
+    height: 300px;
+    overflow: auto;
+    overflow-x: hidden;
+    background-color: rgb(12, 12, 39);
+    padding: 10px;
+}
